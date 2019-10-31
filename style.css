@@ -1,0 +1,62 @@
+.triangle{
+   clip-path: polygon(100% 50%, 0 0, 0 100%);
+   width:100%;
+    height: auto;
+}
+
+.logo {
+  width:166px;
+}
+body{
+    font-family: sans-serif;
+}
+div:nth-of-type(1) {
+       width: 38%;
+       float: left;
+     }
+     div:nth-of-type(2) {
+       width: 24%;
+       float: left;
+       margin-left: 4%;
+       padding: 70px 0;
+
+     }
+     div:nth-of-type(3) {
+       width: 25%;
+       float: right;
+       margin-left: 8%;
+     }
+
+h2{
+  box-sizing: border-box;
+  width: 25%;
+  border-bottom: 3px solid #1A887C;
+  float: left;
+  font-size: 20px;
+  padding: 10px;
+
+}
+input[type=text] {
+width: 100%;
+padding: 4px 10px;
+margin: 1px 0;
+display: inline-block;
+border: 1px solid #ccc;
+font-size: 12px;
+box-sizing: border-box;
+color: #A2A2A2;
+}
+
+   button {
+     padding: 4px 20px;
+     margin: 1px 0;
+     cursor: pointer;
+     width: 100%;
+   }
+footer{
+  font-size: 13px;
+  position: absolute;
+  right: 175px;
+  bottom:175px;
+
+}
